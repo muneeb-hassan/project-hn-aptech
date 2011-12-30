@@ -1,0 +1,42 @@
+/* Login Page */
+#page-login {background: none repeat scroll 0 0 #F8F8F8;text-align: center;}
+.login-container {margin: 170px auto; width: 581px;}
+.login-form { background: url(../images/login_box_bg.jpg) no-repeat scroll 0 0 transparent; padding: 27px 57px 35px; text-align: left;}
+.login-form h2 {font-size: 1.7em; font-weight: normal;}
+.error-msg {background: url(../images/error_msg_icon.gif) no-repeat scroll 10px 10px #FAEBE7 !important; border: 1px solid #F16048 !important; color: #DF280A !important; }
+.messages li { font-size: 0.9em !important; font-weight: bold !important; margin-bottom: 11px !important; min-height: 23px !important; padding: 8px 8px 2px 32px; }
+.messages ul { border: 0 none !important; }
+.messages ul li { border: 0 none !important; margin: 0 0 3px!important; padding: 0 !important; }
+.login-form .input-left { float:left; }
+.login-form .input-right { float:right; }
+.login-form label { font-weight: bold; }
+.login-form .input-box input.input-text { width: 224px; }
+input.input-text, textarea { padding: 2px; }
+input.input-text, textarea, select { background: none repeat scroll 0 0 #FFFFFF; border-color: #AAAAAA #C8C8C8 #C8C8C8 #AAAAAA; border-style: solid; border-width: 1px; font: 12px arial,helvetica,sans-serif; }
+.login-form .form-buttons { clear: both; margin: 12px 0 0; text-align: right; }
+.f-left, .left { float: left; }
+.clear { clear: both; content: "."; display: block; font-size: 0; height: 0; line-height: 0; overflow: hidden; }
+button, .form-button { background: url(../images/btn_bg.gif) repeat-x scroll 0 100% #FFAC47; border-color: #ED6502 #A04300 #A04300 #ED6502; border-style: solid; border-width: 1px; color: #FFFFFF; cursor: pointer; font: bold 12px arial,helvetica,sans-serif; padding: 0 7px 1px; text-align: center !important; white-space: nowrap; }
+.login-container .legal { background: url(../images/login_box_legal_bg.gif) no-repeat scroll 0 0 transparent; font-size: 0.95em; margin: 0; padding: 8px 8px 5px; }
+.login-box .bottom { background: url(../images/login_box_bottom.jpg) no-repeat scroll 0 0 transparent; height: 5px; overflow: hidden; width: 581px; }
+label.error { background:url(../images/validation_advice_bg.gif) no-repeat scroll 2px 1px transparent; clear: both; font-size: 0.95em; font-weight: bold;line-height: 1.25em; margin: 3px 0 0 9px; min-height: 15px; padding-left: 16px; display: block; color: #D40707 !important; }
+.login-form label.error { margin:3px 0 0; }
+/******************************************************************************/
+/********************************** STRUCTURE *********************************/
+/******************************************************************************/
+
+/* LAYOUT */
+.message-popup .message-popup-head:after, .message-popup .message-popup-content .message:after, .login-form .form-buttons:after, .wrapper:after, .option-title:after, .columns:after, .main-col:after, .content-header-floating:after, .entry-edit .entry-edit-head:after, .content-header:after, .login-box .button-set:after, ul.tabs-horiz:after, .header-top:after, dl.accordion dt:after, .field-100:after, .entry-edit fieldset li:after, .entry-edit fieldset span.field-row:after, .content:after, #topnav:after, .main:after, .container:after, .footer:after, .middle:after, .header:after, .box-head:after, div.actions:after, .tier-container:after, .clear:after, .notification-global:after, .files .row:after, .files-wide .row:after, .grid tr.filter .range .range-line:after { clear:both; content: "."; display:block; font-size:0; height:0; line-height:0; overflow:hidden; }
+.wrapper { min-width:960px; }
+.header { background:url(../images/header_top_bg.gif) repeat-x scroll 0 0 #425E66; text-align:right; }
+.header-top { border-bottom:1px solid #5F767F; }
+.logo { float:left; height:43px; margin:5px 20px 5px 27px; }
+.header-right { color:#FFFFFF; font-size:0.95em; padding:10px 25px 0 15px; }
+.header-right .super { float:right; line-height:1.8em; margin-bottom:14px; margin-left:1.3em; }
+.header-right .separator { color:#999999; }
+.separator, .pipe { font-size:0.9em; padding:0 6px; }
+.header-right a, .header-right a:hover { color:#FCCE77; }
+.middle { min-height:450px; background:url(../images/simple_container_bg.gif) repeat-x #fff; padding:23px 27px 0 27px; }
+.footer { clear:both; background:url(../images/footer_bg.gif) repeat-x #e6e6e6; padding:105px 2.8em 2.8em 2.8em; font-size:.95em; text-align:center; }
+.footer .bug-report { float:left; width:35%; text-align:left; }
+.footer .legality { float:right; width:35%; min-height:19px; padding-left:22px; text-align:right; }

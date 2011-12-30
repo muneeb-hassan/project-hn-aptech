@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated Feb 26, 2011 1:22:36 PM by Hibernate Tools 3.2.1.GA -->
+<hibernate-mapping>
+  <class catalog="AlluringDecors" name="app.bean.Category" schema="dbo" table="Category">
+    <id name="categoryId" type="int">
+      <column name="CategoryID"/>
+      <generator class="identity"/>
+    </id>
+    <property name="parentId" type="java.lang.Integer">
+      <column name="ParentID"/>
+    </property>
+    <property name="categoryName" type="string">
+      <column length="50" name="CategoryName" not-null="true"/>
+    </property>
+    <property name="visiable" type="java.lang.Integer">
+      <column name="Visiable"/>
+    </property>
+    <set inverse="true" name="serviceses">
+      <key>
+        <column name="CategoryID" not-null="true"/>
+      </key>
+      <one-to-many class="app.bean.Services"/>
+    </set>
+  </class>
+</hibernate-mapping>

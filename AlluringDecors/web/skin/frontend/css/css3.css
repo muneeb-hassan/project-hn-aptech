@@ -1,0 +1,11 @@
+.col-main { -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px; }
+.col-main .col-main-wrapper { -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px; }
+.main .quick-access-container { -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px; }
+.main .quick-access-wrapper { -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px; }
+#nav li.over a,
+#nav a:hover,
+#nav li.active a { -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px; }
+.sidebar .block { -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px; }
+.sidebar .block .block-title { -webkit-border-radius: 5px 5px 0 0; -moz-border-radius: 5px 5px 0 0; border-radius: 5px 5px 0 0; }
+.sidebar .block .block-content { -webkit-border-radius: 0 0 5px 5px; -moz-border-radius: 0 0 5px 5px; border-radius: 0 0 5px 5px; }
+.col-main .featured-product-wrapper li button.btn-cart { -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px; }
