@@ -21,7 +21,7 @@ public class ServicesModel implements IAbstractModel<Services>{
     private ServicesModel(){}
     public static ServicesModel getInstance() {
         if (instance == null) {
-            instance = new ServicesModel();
+            instance = new ServicesModel(); 
         }
         return instance;
     }
