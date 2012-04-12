@@ -1,0 +1,17 @@
+E:\Coding\Online_Help_Desk\SystemCommon1\obj\Debug\ResolveAssemblyReference.cache
+E:\Coding\Online_Help_Desk\SystemCommon1\bin\Debug\SystemCommon1.dll
+E:\Coding\Online_Help_Desk\SystemCommon1\bin\Debug\SystemCommon1.pdb
+E:\Coding\Online_Help_Desk\SystemCommon1\obj\Debug\SystemCommon1.dll
+E:\Coding\Online_Help_Desk\SystemCommon1\obj\Debug\SystemCommon1.pdb
+C:\Users\HOACOI88\Desktop\wOrK\EProject\Online_Help_Desk\SystemCommon\bin\Debug\SystemCommon.dll
+C:\Users\HOACOI88\Desktop\wOrK\EProject\Online_Help_Desk\SystemCommon\bin\Debug\SystemCommon.pdb
+C:\Users\HOACOI88\Desktop\wOrK\EProject\Online_Help_Desk\SystemCommon\bin\Debug\Captcha.dll
+C:\Users\HOACOI88\Desktop\wOrK\EProject\Online_Help_Desk\SystemCommon\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\HOACOI88\Desktop\wOrK\EProject\Online_Help_Desk\SystemCommon\obj\Debug\SystemCommon.dll
+C:\Users\HOACOI88\Desktop\wOrK\EProject\Online_Help_Desk\SystemCommon\obj\Debug\SystemCommon.pdb
+E:\Coding\Online_Help_Desk\SystemCommon\bin\Debug\SystemCommon.dll
+E:\Coding\Online_Help_Desk\SystemCommon\bin\Debug\SystemCommon.pdb
+E:\Coding\Online_Help_Desk\SystemCommon\bin\Debug\Captcha.dll
+E:\Coding\Online_Help_Desk\SystemCommon\obj\Debug\ResolveAssemblyReference.cache
+E:\Coding\Online_Help_Desk\SystemCommon\obj\Debug\SystemCommon.dll
+E:\Coding\Online_Help_Desk\SystemCommon\obj\Debug\SystemCommon.pdb

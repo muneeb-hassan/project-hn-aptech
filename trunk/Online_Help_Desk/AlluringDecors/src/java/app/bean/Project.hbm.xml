@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated Feb 26, 2011 1:22:36 PM by Hibernate Tools 3.2.1.GA -->
+<hibernate-mapping>
+  <class catalog="AlluringDecors" name="app.bean.Project" schema="dbo" table="Project">
+    <id name="projectId" type="int">
+      <column name="ProjectID"/>
+      <generator class="identity"/>
+    </id>
+    <property name="projectName" type="string">
+      <column name="ProjectName" not-null="true"/>
+    </property>
+    <property name="images" type="string">
+      <column name="Images" not-null="true"/>
+    </property>
+    <property name="description" type="string">
+      <column length="400" name="Description" not-null="true"/>
+    </property>
+    <property name="details" type="string">
+      <column name="Details" not-null="true"/>
+    </property>
+    <property name="startDate" type="timestamp">
+      <column length="23" name="StartDate" not-null="true"/>
+    </property>
+    <property name="endDate" type="timestamp">
+      <column length="23" name="EndDate" not-null="true"/>
+    </property>
+    <property name="statusProject" type="int">
+      <column name="StatusProject" not-null="true"/>
+    </property>
+    <property name="visiable" type="java.lang.Integer">
+      <column name="Visiable"/>
+    </property>
+  </class>
+</hibernate-mapping>

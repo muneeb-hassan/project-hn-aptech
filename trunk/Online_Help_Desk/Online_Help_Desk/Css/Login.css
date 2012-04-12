@@ -1,0 +1,173 @@
+﻿*
+{
+	padding: 0px;
+}
+img, div, a
+{
+	behavior: url(../Css/iepngfix.htc);
+}
+#InfoWarp
+{
+	position: relative;
+	float: left;
+	width: 500px;
+	height: auto;
+}
+#PopupRegister
+{
+	position: absolute;
+	top: 3%;
+	left: 30%;
+	float: left;
+	width: 485px;
+	height: auto;
+	border: 1px solid #CCCCCC;
+	-moz-border-radius: 5px 5px 0px 0px;
+	border-radius: 5px 5px 0px 0px;
+	-moz-box-shadow: 2px 2px 2px black;
+	box-shadow: 2px 2px 2px black;
+	z-index: 9000;
+}
+#PopupRegister .title-left
+{
+	position: relative;
+	float: left;
+	width: 475px;
+	font-size: 15px;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px white;
+	background: #CCCCCC;
+	height: 25px;
+	padding: 3px 0px 0px 10px;
+	border-bottom: 1px solid #999;
+	-moz-border-radius: 5px 0px 0px 0px;
+	border-radius: 5px 0px 0px 0px;
+}
+#PopupRegister .title-right
+{
+	position: absolute;
+	padding: 0px;
+	float: right;
+	top: 2px;
+	right: 0px;
+	width: 20px;
+	height: 20px;
+	background: url(../Images/png_remove.png) no-repeat;
+}
+#Popup-content
+{
+	position: relative;
+	float: left;
+	width: 100%;
+	height: auto;
+	background: #E4E4E4;
+	border-top :1px solid white;
+}
+#PopupRegister .imgQuetion
+{
+	padding: 15px 0px 0px 10px;
+	position: relative;
+	float: left;
+}
+#Popup-content p
+{
+	float: left;
+	padding: 20px 0px 5px 10px;
+	width: 230px;
+}
+.button-Popup
+{
+	-moz-border-radius: 3px 3px 3px 3px;
+	-moz-box-shadow: 0 0 1px #FFFFFF inset;
+	background-color: #E0E0E0;
+	background-image: -moz-linear-gradient(center top , #FFFFFF 0pt, #E0E0E0 100%); 
+	background: -webkit-gradient(linear, center top, from(#FFFFFF), to(#E0E0E0));
+	background : filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#FFFFFF, endColorstr=#E0E0E0);
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#FFFFFF, endColorstr=#E0E0E0)";
+	border-color: #CCCCCC #CCCCCC #AAAAAA;
+	border-style: solid;
+	border-width: 1px;
+	color: #333333;
+	width: 80px;
+	cursor: pointer;
+	font-size: 14px;
+	font-weight: bold;
+	height: 30px;
+	color : Blue;
+	outline: 0 none;
+	text-shadow: 0 1px 0 #FFFFFF;
+	vertical-align: middle;
+	white-space: nowrap;
+	word-wrap: normal;
+}
+.padd-right5px
+{
+	margin-right :7px;	
+}
+.fixbtnLogin
+{
+	width :auto;
+	margin-top :5px;
+	padding : 0px 8px 0px 8px;
+	color :Black;
+}
+.hide
+{
+	visibility: visible;
+	display: none;
+}
+.show
+{
+	visibility: inherit;
+	display: block;
+}
+.disable
+{
+	height: 720px;
+	left: 0;
+	opacity: 0.5;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	z-index: 2000;
+	background: #fdfdfe;
+}
+a
+{
+	text-decoration: none;
+}
+hover a
+{
+	color: Red;
+}
+.Refresh
+{
+	background :url(../Images/refresh.png)no-repeat;	
+	width :33px;
+	height :33px;
+	-moz-border-radius: 3px 3px 3px 3px;
+	-moz-box-shadow: 0 0 1px #FFFFFF inset;
+	border-color: #CCCCCC #CCCCCC #AAAAAA;
+	border-style: solid;
+	border-width: 1px;
+	color: #333333;
+	cursor: pointer;
+	font-size: 14px;
+	font-weight: bold;
+	color : Blue;
+	outline: 0 none;
+	text-shadow: 0 1px 0 #FFFFFF;
+	vertical-align: middle;
+	white-space: nowrap;
+	word-wrap: normal;
+}
+input
+{
+	-moz-border-radius : 2px;
+	border-radius : 2px;
+	-moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15) inset;
+	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15) inset;
+    background: none repeat scroll 0 0 rgba(255, 255, 255, 0.85);
+    border: 1px solid #CCCCCC;
+    Color : #666666;
+}

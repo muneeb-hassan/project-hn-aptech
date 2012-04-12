@@ -1,0 +1,64 @@
+﻿============  08/04/2012 7:25 CH timeRefresh_Tick Illegal characters in path.============
+
+============  08/04/2012 7:25 CH timeRefresh_Tick Illegal characters in path.============
+
+============  08/04/2012 7:25 CH timeRefresh_Tick Illegal characters in path.============
+
+============  08/04/2012 7:25 CH timeRefresh_Tick Illegal characters in path.============
+
+============  08/04/2012 7:25 CH timeRefresh_Tick Illegal characters in path.============
+
+============  08/04/2012 7:26 CH timeRefresh_Tick Illegal characters in path.============
+
+============  08/04/2012 7:26 CH timeRefresh_Tick Illegal characters in path.============
+
+============  08/04/2012 7:26 CH timeRefresh_Tick Illegal characters in path.============
+
+============  08/04/2012 7:26 CH timeRefresh_Tick Illegal characters in path.============
+
+============  08/04/2012 7:26 CH timeRefresh_Tick Illegal characters in path.============
+
+============  08/04/2012 7:27 CH timeRefresh_Tick Illegal characters in path.============
+
+============  08/04/2012 7:27 CH timeRefresh_Tick Illegal characters in path.============
+
+============  08/04/2012 7:27 CH timeRefresh_Tick Illegal characters in path.============
+
+============  08/04/2012 7:27 CH timeRefresh_Tick Illegal characters in path.============
+
+============  08/04/2012 7:27 CH timeRefresh_Tick Illegal characters in path.============
+
+============  08/04/2012 7:28 CH timeRefresh_Tick Illegal characters in path.============
+
+============  08/04/2012 7:28 CH timeRefresh_Tick Illegal characters in path.============
+
+============  08/04/2012 7:28 CH timeRefresh_Tick Illegal characters in path.============
+
+============  08/04/2012 7:28 CH timeRefresh_Tick Illegal characters in path.============
+
+============  08/04/2012 7:28 CH timeRefresh_Tick Illegal characters in path.============
+
+============  08/04/2012 7:29 CH timeRefresh_Tick Illegal characters in path.============
+
+============  08/04/2012 7:29 CH timeRefresh_Tick Illegal characters in path.============
+
+============  08/04/2012 7:31 CH lbtForgetPass_Click Thread was being aborted.============
+
+============  08/04/2012 7:35 CH lbtForgetPass_Click Thread was being aborted.============
+
+============  08/04/2012 7:35 CH lbtForgetPass_Click Thread was being aborted.============
+
+============  08/04/2012 7:41 CH lbtForgetPass_Click Thread was being aborted.============
+
+============  08/04/2012 7:41 CH lbtRegister_Click Thread was being aborted.============
+
+============  4/8/2012 7:41 PM lbtRegister_Click Thread was being aborted.============
+
+============  4/8/2012 7:41 PM lbtForgetPass_Click Thread was being aborted.============
+
+============  08/04/2012 7:42 CH lbtForgetPass_Click Thread was being aborted.============
+
+============  08/04/2012 7:42 CH lbtRegister_Click Thread was being aborted.============
+
+============  08/04/2012 10:51 CH lbtRegister_Click Thread was being aborted.============
+

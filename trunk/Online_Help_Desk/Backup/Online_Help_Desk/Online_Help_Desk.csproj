@@ -1,0 +1,222 @@
+﻿<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{6EA85C34-BAA3-4156-8538-0ACAABAA0F2D}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Online_Help_Desk</RootNamespace>
+    <AssemblyName>Online_Help_Desk</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Captcha, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Web.Extensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.Mobile" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Default.aspx" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ChangeUsers.aspx.cs">
+      <DependentUpon>ChangeUsers.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ChangeUsers.aspx.designer.cs">
+      <DependentUpon>ChangeUsers.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="LogOut.aspx.cs">
+      <DependentUpon>LogOut.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="LogOut.aspx.designer.cs">
+      <DependentUpon>LogOut.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Template\Template.Master.cs">
+      <DependentUpon>Template.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Template\Template.Master.designer.cs">
+      <DependentUpon>Template.Master</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\UcFogetPassword.ascx.cs">
+      <DependentUpon>UcFogetPassword.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\UcFogetPassword.ascx.designer.cs">
+      <DependentUpon>UcFogetPassword.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\UCLogin.ascx.cs">
+      <DependentUpon>UCLogin.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\UCLogin.ascx.designer.cs">
+      <DependentUpon>UCLogin.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\mainStart.ascx.cs">
+      <DependentUpon>mainStart.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\mainStart.ascx.designer.cs">
+      <DependentUpon>mainStart.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FrmLogin.aspx.cs">
+      <DependentUpon>FrmLogin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FrmLogin.aspx.designer.cs">
+      <DependentUpon>FrmLogin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UserControls\UcRegister.ascx.cs">
+      <DependentUpon>UcRegister.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\UcRegister.ascx.designer.cs">
+      <DependentUpon>UcRegister.ascx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bin\BussinissRule.dll" />
+    <Content Include="bin\BussinissRule.pdb" />
+    <Content Include="bin\Captcha.dll" />
+    <Content Include="bin\DataAcesss.dll" />
+    <Content Include="bin\DataAcesss.pdb" />
+    <Content Include="bin\MSCaptcha.dll" />
+    <Content Include="bin\MSCaptcha.xml" />
+    <Content Include="bin\SystemCommon.dll" />
+    <Content Include="bin\SystemCommon.pdb" />
+    <Content Include="ChangeUsers.aspx" />
+    <Content Include="Css\Login.css" />
+    <Content Include="favicon.ico" />
+    <Content Include="Images\Newmessage.png" />
+    <Content Include="Images\png_remove.png" />
+    <Content Include="Images\refresh.png" />
+    <Content Include="Js\Ajax.js" />
+    <Content Include="LogOut.aspx" />
+    <Content Include="Template\Template.Master" />
+    <Content Include="UserControls\UcFogetPassword.ascx" />
+    <Content Include="UserControls\UCLogin.ascx" />
+    <Content Include="UserControls\mainStart.ascx" />
+    <Content Include="Css\Admin.css" />
+    <Content Include="Css\iepngfix.htc" />
+    <Content Include="Css\PopUp.css" />
+    <Content Include="Images\arrow.gif" />
+    <Content Include="Images\arrow_down.png" />
+    <Content Include="Images\bg_body1.jpg" />
+    <Content Include="Images\category.png" />
+    <Content Include="Images\date.png" />
+    <Content Include="Images\edit.png" />
+    <Content Include="Images\en.gif" />
+    <Content Include="Images\go_home.png" />
+    <Content Include="Images\home.png" />
+    <Content Include="Images\home_w.png" />
+    <Content Include="Images\login\Login_03.gif" />
+    <Content Include="Images\login\login_06.gif" />
+    <Content Include="Images\login\login_07.gif" />
+    <Content Include="Images\login\login_08.gif" />
+    <Content Include="Images\login\login_10.gif" />
+    <Content Include="Images\mail_find.png" />
+    <Content Include="Images\post.png" />
+    <Content Include="Images\stock_post_message.png" />
+    <Content Include="Images\user_male_16.png" />
+    <Content Include="Images\vi.gif" />
+    <Content Include="Images\video.png" />
+    <Content Include="Images\View.gif" />
+    <Content Include="Js\function.js" />
+    <Content Include="FrmLogin.aspx" />
+    <Content Include="UserControls\UcRegister.ascx" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\login\Thumbs.db" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BussinissRule\BussinissRule.csproj">
+      <Project>{FA4DAF87-E7E8-4A5F-BB97-A1D531631963}</Project>
+      <Name>BussinissRule</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DataAcesss\DataAcesss.csproj">
+      <Project>{B0B29838-43E2-4F3E-AFF9-E7B3519D6E21}</Project>
+      <Name>DataAcesss</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SystemCommon\SystemCommon.csproj">
+      <Project>{521FDCC0-5CAD-4A79-A1A0-211F34526FA5}</Project>
+      <Name>SystemCommon</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v9.0\WebApplications\Microsoft.WebApplication.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>1837</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>
