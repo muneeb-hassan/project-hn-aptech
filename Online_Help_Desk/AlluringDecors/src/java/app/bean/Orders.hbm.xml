@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated Feb 26, 2011 1:22:36 PM by Hibernate Tools 3.2.1.GA -->
+<hibernate-mapping>
+  <class catalog="AlluringDecors" name="app.bean.Orders" schema="dbo" table="Orders">
+    <id name="orderId" type="int">
+      <column name="OrderID"/>
+      <generator class="identity"/>
+    </id>
+    <many-to-one class="app.bean.Users" fetch="select" name="users">
+      <column name="UserID" not-null="true"/>
+    </many-to-one>
+    <property name="orderDate" type="timestamp">
+      <column length="23" name="OrderDate" not-null="true"/>
+    </property>
+    <property name="startDate" type="timestamp">
+      <column length="23" name="StartDate" not-null="true"/>
+    </property>
+    <property name="endDate" type="timestamp">
+      <column length="23" name="EndDate" not-null="true"/>
+    </property>
+    <property name="canceDate" type="timestamp">
+      <column length="23" name="CanceDate"/>
+    </property>
+    <property name="statusOrder" type="java.lang.Integer">
+      <column name="StatusOrder"/>
+    </property>
+    <property name="fullName" type="string">
+      <column length="50" name="FullName" not-null="true"/>
+    </property>
+    <property name="address" type="string">
+      <column length="256" name="Address" not-null="true"/>
+    </property>
+    <property name="email" type="string">
+      <column length="50" name="Email" not-null="true"/>
+    </property>
+    <property name="phone" type="string">
+      <column length="15" name="Phone" not-null="true"/>
+    </property>
+    <property name="visiable" type="java.lang.Integer">
+      <column name="Visiable"/>
+    </property>
+    <set inverse="true" name="orderDetailses">
+      <key>
+        <column name="OrderID" not-null="true"/>
+      </key>
+      <one-to-many class="app.bean.OrderDetails"/>
+    </set>
+    <set inverse="true" name="payments">
+      <key>
+        <column name="OrderID" not-null="true"/>
+      </key>
+      <one-to-many class="app.bean.Payment"/>
+    </set>
+  </class>
+</hibernate-mapping>

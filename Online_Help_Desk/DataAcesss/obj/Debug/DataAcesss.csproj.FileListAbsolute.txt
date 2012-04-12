@@ -1,0 +1,16 @@
+C:\Users\HOACOI88\Desktop\wOrK\EProject\Online_Help_Desk\DataAcesss\bin\Debug\DataAcesss.dll
+C:\Users\HOACOI88\Desktop\wOrK\EProject\Online_Help_Desk\DataAcesss\bin\Debug\DataAcesss.pdb
+C:\Users\HOACOI88\Desktop\wOrK\EProject\Online_Help_Desk\DataAcesss\bin\Debug\SystemCommon.dll
+C:\Users\HOACOI88\Desktop\wOrK\EProject\Online_Help_Desk\DataAcesss\bin\Debug\Captcha.dll
+C:\Users\HOACOI88\Desktop\wOrK\EProject\Online_Help_Desk\DataAcesss\bin\Debug\SystemCommon.pdb
+C:\Users\HOACOI88\Desktop\wOrK\EProject\Online_Help_Desk\DataAcesss\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\HOACOI88\Desktop\wOrK\EProject\Online_Help_Desk\DataAcesss\obj\Debug\DataAcesss.dll
+C:\Users\HOACOI88\Desktop\wOrK\EProject\Online_Help_Desk\DataAcesss\obj\Debug\DataAcesss.pdb
+E:\Coding\Online_Help_Desk\DataAcesss\bin\Debug\DataAcesss.dll
+E:\Coding\Online_Help_Desk\DataAcesss\bin\Debug\DataAcesss.pdb
+E:\Coding\Online_Help_Desk\DataAcesss\bin\Debug\SystemCommon.dll
+E:\Coding\Online_Help_Desk\DataAcesss\bin\Debug\Captcha.dll
+E:\Coding\Online_Help_Desk\DataAcesss\bin\Debug\SystemCommon.pdb
+E:\Coding\Online_Help_Desk\DataAcesss\obj\Debug\ResolveAssemblyReference.cache
+E:\Coding\Online_Help_Desk\DataAcesss\obj\Debug\DataAcesss.dll
+E:\Coding\Online_Help_Desk\DataAcesss\obj\Debug\DataAcesss.pdb
